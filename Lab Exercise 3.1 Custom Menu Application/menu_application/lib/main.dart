@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const RestaurantMenuApp());
+  runApp(const BakeryMenuApp());
 }
 
-class RestaurantMenuApp extends StatelessWidget {
-  const RestaurantMenuApp({super.key});
+class BakeryMenuApp extends StatelessWidget {
+  const BakeryMenuApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class MenuScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Restaurant Menu'),
+        title: const Text('Bakery Menu'),
         backgroundColor: Colors.pink[700],
       ),
       body: const SafeArea(
